@@ -1493,10 +1493,4 @@ def start_bot():
 
 
 if __name__ == "__main__":
-    # ВАЖНО: ЗАМЕНИТЕ 'YOUR_BOT_TOKEN_HERE' НА ВАШ ТОКЕН ОТ @BotFather!
-    if API_TOKEN == "YOUR_BOT_TOKEN_HERE":
-        print("❌ ОШИБКА: Вы забыли заменить API_TOKEN!")
-        print("Получите токен у @BotFather и вставьте его в строку 25")
-        print("Пример: API_TOKEN = '1234567890:ABCdefGHIjklMnOpqRsTuvwxyz'")
-    else:
-        start_bot()
+    start_bot()
